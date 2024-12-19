@@ -2,6 +2,10 @@
 
 Proyek ini berisi dua versi dari game Snake: versi web dan versi CLI. Game ini memungkinkan Anda untuk mengontrol ular dan mengumpulkan makanan untuk mendapatkan skor.
 
+<p align="center">
+  <img src="img/snake_html.jpg" alt="Screenshot Game Snake">
+</p>
+
 ## 🌐 Versi Web
 
 Versi web dari game Snake menggunakan HTML, CSS, dan JavaScript. Anda dapat memainkan game ini di browser.
@@ -35,16 +39,14 @@ Versi CLI dari game Snake menggunakan Node.js dan modul `chalk` untuk tampilan w
 4. Jalankan perintah `node snake-cli.js` untuk memulai permainan.
 5. Gunakan tombol WASD untuk menggerakkan ular.
 
+![Screenshot Game Sudoku](img/snake_cli.jpg)
+
 ### ✨ Fitur
 
 - Tampilan teks di terminal dengan warna.
 - Kontrol menggunakan tombol WASD.
 - Skor ditampilkan di terminal.
 
-## 🤝 Kontribusi
+## 🙏 Keterangan
 
-Jika Anda ingin berkontribusi pada proyek ini, silakan fork repositori ini dan buat pull request dengan perubahan Anda.
-
-## 📜 Lisensi
-
-Proyek ini dilisensikan di bawah lisensi MIT. Lihat file `LICENSE` untuk informasi lebih lanjut.
+- Terinspirasi dari permainan Snake klasik project https://github.com/DosX-dev/TinySnake-game
