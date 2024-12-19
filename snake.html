@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            /* background-color: #000; */
+            position: relative;
+        }
+
+        h1 {
+            color: #008800;
+            margin-bottom: 20px;
+        }
+
+        canvas {
+            border: 1px solid #000;
+            background-color: #111;
+        }
+
+        button {
+            position: absolute;
+            top: 70%;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        #startButton {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <canvas id="gameCanvas" width="500" height="500"></canvas>
+    <button id="startButton">Mainkan</button>
+    <button id="restartButton">Main Lagi</button>
+    <small style="color: #008800; margin-top: 10px;">Gunakan WASD untuk bergerak</small>
+    <script src="snake.js"></script>
+</body>
+</html>
